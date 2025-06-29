@@ -1,0 +1,233 @@
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+     font-family: 'DM Sans', sans-serif;
+}
+.full-div-bento{
+        
+       display: grid;
+       grid-template-columns: repeat(12,100px);
+       grid-template-rows: repeat(6,90px);
+       grid-template-areas: 
+       ". A A A B B B B B C C ."
+       ". A A A B B B B B C C ."
+       ". A A A E E F F F C C ."
+       ". D D D E E F F F C C ."
+       ". D D D E E G G G G G ."
+       ". D D D E E G G G G G ."
+       ;
+      gap: 10PX;
+
+}
+.bg1{
+
+    grid-area: A;
+       display: flex;
+    justify-content: end;
+   
+}
+.bg-1-child{
+ 
+    height: 100%;
+    width: 200px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    padding-left:30px ;
+    padding-right:10px ;
+
+}
+.bg-child-11{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+.quicker{
+    color: purple;
+}
+.bg1-image{
+    height: 70px;
+}
+
+.bg2{
+   
+     grid-area: B;
+     display: flex;
+     justify-content: center;
+}
+.bg-2-child{
+    height: 100%;
+    width: 480px;
+     background-color: hsl(256, 67%, 59%);
+       border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bg-2-child-inside11{
+    
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+}
+.bg-2-child-inside22{
+   width: 150px;
+}
+.bg-2-child-inside33{
+   color: white;
+}
+.bg3{
+    background-color: hsl(254, 88%, 90%);
+     grid-area: C;
+       border-radius: 10px;
+    border: none;
+        display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.bg3-child{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: end;
+    
+    gap: 10px;
+}
+.bg3-child1{
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.bg3-child2{
+   
+    height: 175px;  
+   
+}
+.bg3-child3{
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.bg4{
+    display: flex;
+    justify-content: end;
+     grid-area: D;
+       border-radius: 10px;
+    border: none;
+}
+.bg-4-child{
+ 
+    height: 100%;
+    width: 200px;
+    background-color: hsl(39, 100%, 71%);
+      border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+    gap: 15px;
+}
+.bg4-child-1{
+    font-size: 30px;
+     font-weight: 600;
+}
+.bg4-child-2{
+    height: 140px;
+   
+}
+.bg5{
+    background-color: hsl(0, 0%, 100%);
+     grid-area: E;
+       border-radius: 10px;
+    border: none;
+     display: flex;
+    justify-content: center;
+    
+   
+}
+.bg5-full-div{
+    padding-left: 40px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg5-child2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.bg5-child1{
+    height: 45px;
+}
+.bg5-child4{
+    height: 50px;
+}
+.percentage{
+    font-size: 30px;
+    font-weight: 600;
+}
+.bg6{
+   
+     grid-area: F;
+}
+.bg-6-child{
+     background-color: hsl(39, 100%, 71%);
+     height: 100%;
+     width: 260px;
+       border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-left: 20px;
+    
+}
+.bg-6-child-inside1{
+    padding-top: 10px;
+    font-size:20px ;
+    font-weight: 600;
+}
+.bg-6-child-inside2{
+    height:70px;
+    width: 200px;
+}
+.bg7{
+    background-color: hsl(256, 67%, 59%);
+     grid-area: G;
+       border-radius: 10px;
+    border: none;
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+}
+.bg7-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.bg7-child-inside1{
+    height: 170px;
+}
+.bg7-child-inside2{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
